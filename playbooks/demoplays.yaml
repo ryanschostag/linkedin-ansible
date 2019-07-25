@@ -7,13 +7,16 @@
       debug:
         msg: "this is task 1"
   
-    - name: demo task 1
-      debug:
-        msg: "this is task 2"
-
+    - name: demo task 2
+#       debug:
+#         msg: "this is task 2"
+      fail:
+        msg: "error: task 2 failed"
+      when: inventory_hostname == "host2"
 
 - name: "Do another demo"
   hosts: groupB
+#  serial: 1
 
   tasks:
     - name: demo task 3
