@@ -1,0 +1,3 @@
+Single play
+task uses pip module
+pip module to check if latest version of ansible pacakge is installed in virtual environment
