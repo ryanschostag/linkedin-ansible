@@ -16,7 +16,7 @@
 
 - name: "Do another demo"
   hosts: groupB
-#  serial: 1
+  serial: 1
 
   tasks:
     - name: demo task 3
