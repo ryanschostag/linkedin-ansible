@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "bba6d896a1defd56d0a5181ed56c4d0acd354769d2a352d59db422ba655be06f"
+            "sha256": "218a1897c122090058ce0b983f542d5b3174100317288e7b4a288c0245ba768b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -25,10 +25,10 @@
         },
         "ansible": {
             "hashes": [
-                "sha256:1e5ba829ca0602c55b33da399b06f99b135a34014b661d1c36d8892a1e2d3730"
+                "sha256:05f9ed3ca3e06dffaa87a73a8e6f7f322825bc3f609f8b71c4fe22dbbdf72abc"
             ],
             "index": "pypi",
-            "version": "==2.8.2"
+            "version": "==2.8.3"
         },
         "asn1crypto": {
             "hashes": [
@@ -161,13 +161,21 @@
             ],
             "version": "==0.6.0"
         },
+        "docker": {
+            "hashes": [
+                "sha256:acf51b5e3e0d056925c3b780067a6f753c915fffaa46c5f2d79eb0fc1cbe6a01",
+                "sha256:cc5b2e94af6a2b1e1ed9d7dcbdc77eff56c36081757baf9ada6e878ea0213164"
+            ],
+            "index": "pypi",
+            "version": "==4.0.2"
+        },
         "docutils": {
             "hashes": [
-                "sha256:02aec4bd92ab067f6ff27a38a38a41173bf01bed8f89157768c1573f53e474a6",
-                "sha256:51e64ef2ebfb29cae1faa133b3710143496eca21c530f3f71424d77687764274",
-                "sha256:7a4bd47eaf6596e1295ecb11361139febe29b084a87bf005bf899f9a42edc3c6"
+                "sha256:6c4f696463b79f1fb8ba0c594b63840ebd41f059e92b31957c46b74a4599b6d0",
+                "sha256:9e4d7ecfc600058e07ba661411a2b7de2fd0fafa17d1a7f7361cd47b1175c827",
+                "sha256:a2aeea129088da402665e92e0b25b04b073c04b2dce4ab65caaa38b7ce2e1a99"
             ],
-            "version": "==0.14"
+            "version": "==0.15.2"
         },
         "entrypoints": {
             "hashes": [
@@ -199,10 +207,10 @@
         },
         "ipython": {
             "hashes": [
-                "sha256:11067ab11d98b1e6c7f0993506f7a5f8a91af420f7e82be6575fcb7a6ca372a0",
-                "sha256:60bc55c2c1d287161191cc2469e73c116d9b634cff25fe214a43cba7cec94c79"
+                "sha256:1d3a1692921e932751bc1a1f7bb96dc38671eeefdc66ed33ee4cbc57e92a410e",
+                "sha256:537cd0176ff6abd06ef3e23f2d0c4c2c8a4d9277b7451544c6cbf56d1c79a83d"
             ],
-            "version": "==7.6.1"
+            "version": "==7.7.0"
         },
         "ipython-genutils": {
             "hashes": [
@@ -360,10 +368,10 @@
         },
         "packaging": {
             "hashes": [
-                "sha256:0c98a5d0be38ed775798ece1b9727178c4469d9c3b4ada66e8e6b7849f8732af",
-                "sha256:9e1cbf8c12b1f1ce0bb5344b8d7ecf66a6f8a6e91bcb0c84593ed6d3ab5c4ab3"
+                "sha256:a7ac867b97fdc07ee80a8058fe4435ccd274ecc3b0ed61d852d7d53055528cf9",
+                "sha256:c491ca87294da7cc01902edbe30a5bc6c4c28172b5138ab4e4aa1b9d7bfaeafe"
             ],
-            "version": "==19.0"
+            "version": "==19.1"
         },
         "pandocfilters": {
             "hashes": [
@@ -458,10 +466,10 @@
         },
         "pyparsing": {
             "hashes": [
-                "sha256:1873c03321fc118f4e9746baf201ff990ceb915f433f23b395f5580d1840cb2a",
-                "sha256:9b6323ef4ab914af344ba97510e966d64ba91055d6b9afa6b30799340e89cc03"
+                "sha256:6f98a7b9397e206d78cc01df10131398f1c8b8510a2f4d97d9abd82e1aacdd80",
+                "sha256:d9338df12903bbf5d65a0e4e87c2161968b10d2e489652bb47001d82a9b028b4"
             ],
-            "version": "==2.4.0"
+            "version": "==2.4.2"
         },
         "pyqt5": {
             "hashes": [
@@ -506,9 +514,9 @@
         },
         "pyrsistent": {
             "hashes": [
-                "sha256:50cffebc87ca91b9d4be2dcc2e479272bcb466b5a0487b6c271f7ddea6917e14"
+                "sha256:34b47fa169d6006b32e99d4b3c4031f155e6e68ebcc107d6454852e8e0ee6533"
             ],
-            "version": "==0.15.3"
+            "version": "==0.15.4"
         },
         "python-dateutil": {
             "hashes": [
@@ -572,24 +580,24 @@
         },
         "qtawesome": {
             "hashes": [
-                "sha256:510972e327a6013f962b41cc14d27cff2689fbd8d38bb0816bc4b890d699e0b0",
-                "sha256:cf221d54ccdc3eb6c34728f26aea409633d043360640ffff0db791c11a852c5c"
+                "sha256:368c19e40defc91e5f6b52e13a42c48f1abe491610986347c6f0509a3dfd7242",
+                "sha256:5e4e9504d7288bce4e1c30b1f2aa5f1510c7266901d8874f0f834ff929bf1e17"
             ],
-            "version": "==0.5.7"
+            "version": "==0.6.0"
         },
         "qtconsole": {
             "hashes": [
-                "sha256:4af84facdd6f00a6b9b2927255f717bb23ae4b7a20ba1d9ef0a5a5a8dbe01ae2",
-                "sha256:60d61d93f7d67ba2b265c6d599d413ffec21202fec999a952f658ff3a73d252b"
+                "sha256:6a85456af7a98b0f554d140922b7b6a219757b039adb2b95e847cf115eaa20ae",
+                "sha256:767eb9ec3f9943bc84270198b5ff95d2d86d68d6b57792fafa4df4fc6b16cd7c"
             ],
-            "version": "==4.5.1"
+            "version": "==4.5.2"
         },
         "qtpy": {
             "hashes": [
-                "sha256:9a5e67e7f66452a2cf4700865deaa2c2df57f5086f9c41f251b9c406efdaf626",
-                "sha256:eb66998a9049d276c75f26fc31554666504a7c1732cc3edd42a434c1fed01c92"
+                "sha256:2db72c44b55d0fe1407be8fba35c838ad0d6d3bb81f23007886dc1fc0f459c8d",
+                "sha256:fa0b8363b363e89b2a6f49eddc162a04c0699ae95e109a6be3bb145a913190ea"
             ],
-            "version": "==1.8.0"
+            "version": "==1.9.0"
         },
         "requests": {
             "hashes": [
@@ -760,6 +768,13 @@
                 "sha256:b36a1c245f2d304965eb4e0a82848379241dc04b865afcc4aab16748587e1923"
             ],
             "version": "==0.5.1"
+        },
+        "websocket-client": {
+            "hashes": [
+                "sha256:1151d5fb3a62dc129164292e1227655e4bbc5dd5340a5165dfae61128ec50aa9",
+                "sha256:1fd5520878b68b84b5748bb30e592b10d0a91529d5383f74f4964e72b297fd3a"
+            ],
+            "version": "==0.56.0"
         },
         "wrapt": {
             "hashes": [

@@ -9,6 +9,7 @@ verify_ssl = true
 ansible = "*"
 rope = "*"
 spyder = "*"
+docker = "*"
 
 [requires]
 python_version = "3.5"
