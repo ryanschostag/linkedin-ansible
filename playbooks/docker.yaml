@@ -3,14 +3,14 @@
   hosts: localhost
 
   tasks:
-    - name: make dockers
+    - name: launch dockers
       docker_container:
         image: busybox
         command: sleep 1d
         name: "busy{{ item }}"
       with_sequence: count=3
 
-    - name: add_hosts
+    - name: add hosts
       add_host:
         name: "busy{{ item }}"
         group: dockers
