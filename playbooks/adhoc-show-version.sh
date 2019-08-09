@@ -1,1 +1,1 @@
-ansible -i webapp web -m command -a apt list ansible
+ansible -i webapp web -m command -a "apt list ansible"
